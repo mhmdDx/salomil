@@ -235,9 +235,9 @@ body {
         align-items: center;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-right:auto;
-        margin-left:auto;
-        justify-content:center;
+        margin-right:15px;
+        margin-left:15px;
+
     }
 
     .del .main img {
@@ -249,7 +249,7 @@ body {
 
     .del .main h3 {
 
-        margin: 15px auto;
+        margin: 15px ;
 
     }
 
