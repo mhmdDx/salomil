@@ -185,3 +185,36 @@
 
     }
 }
+@media (max-width: 768px) {
+    .start .main {
+        width: 90%;
+        margin: -50px auto;
+    }
+
+    .mission .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top:0px;
+
+    }
+
+    .mission .main .text {
+
+        text-align: center;
+        margin-top:0;
+    }
+
+    .vision .main {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .vision .main .text {
+
+        text-align: center;
+    }
+}
+
