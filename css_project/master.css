@@ -376,6 +376,7 @@ body {
     padding: 30px;
     padding-top: 15px;
     direction: rtl;
+    color:#777;
 }
 
 .img-two img {
@@ -403,7 +404,7 @@ body {
 
 @media (max-width: 768px) {
     .features .main-header h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
 }
