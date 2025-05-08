@@ -134,7 +134,7 @@
     }
 
     .mission .main {
-        flex-direction: column;
+           flex-direction: column-revers;
         align-items: center;
         justify-content: center;
 
