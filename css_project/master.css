@@ -249,13 +249,14 @@ body {
     .del .main h3 {
 
         margin: 15px ;
+        text-align:center;
 
     }
 
     .del .main p {
         font-size: 15px;
         padding: 20px;
-
+     text-align:center;
     }
 
 }
