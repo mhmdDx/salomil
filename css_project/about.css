@@ -1,0 +1,187 @@
+.land .main {
+    background-image: url("../photos/ChatGPT\ Image\ 19\ أبريل\ 2025،\ 11_46_10\ م.webp");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.start .main {
+    width: 600px;
+    height: fit-content;
+    background-color: #fff;
+    margin-top: -100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.start .main h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.start .main p {
+    color: #777;
+    margin-bottom: 20px;
+
+}
+
+.start .main h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.history .main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-right: 0;
+}
+
+.history .main h2 {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', seri;
+    direction: rtl;
+
+}
+
+.history .main p {
+    color: #777;
+    text-align: left;
+    direction: rtl;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.history .main img {
+    width: 350px;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission .main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #eee;
+}
+
+.mission .main h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.mission .main img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.vision .main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #eee;
+}
+
+.vision .main img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vision .main h2 {
+    font-size: 40px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.vision .main p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.vision .main a {
+
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .start .main {
+        width: 90%;
+        margin: -50px auto;
+    }
+
+    .mission .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .mission .main .text {
+
+        text-align: center;
+    }
+
+    .vision .main {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .vision .main .text {
+
+        text-align: center;
+    }
+
+
+    .history .main img {
+        width: 350px;
+
+
+
+    }
+
+    .history .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .history .main h2 {
+
+        margin-left: 20px;
+
+    }
+
+    .history .main p {
+        font-size: 15px;
+        padding: 20px;
+
+
+    }
+}
