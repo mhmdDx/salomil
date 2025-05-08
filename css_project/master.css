@@ -9,7 +9,7 @@ body {
     font-family: "Cairo", sans-serif;
     /* font-family: BauerBodoniBTW01-Roman,Georgia,serif; */
     background-color: #eee;
-    overflow-x: clip;
+     overflow-x: hidden !important;
 
 
 }
