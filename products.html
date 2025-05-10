@@ -28,8 +28,49 @@
 <body>
 
     <!-- start header -->
+     <div class="header">
+        <ul class="sidbar">
+            <li onclick=hidesidbar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="About.html">About </a></li>
+            <li><a href="contact.html">contact </a> </li>
 
-    <div class="header">
+        </ul>
+        <div class="main">
+            <div class="logo">
+                <a href="index.html"><img src="photos/SALOMIL-logo (1).png" alt=""></a>
+                <p data-aos="fade-right" data-aos-duration="1000"><i>"layerd to last crafted since 1982"</i></p>
+            </div>
+
+            <div class="nav">
+
+                <ul>
+                    <li class="hidemob"><a href="index.html">Home</a></li>
+                    <li class="hidemob"><a href="products.html">Products</a></li>
+                    <li class="hidemob"><a href="About.html">About </a></li>
+                    <li class="hidemob"><a href="contact.html">contact </a> </li>
+                    <li onclick=showsidbar()><a href="#"> <i class="fa-solid fa-bars"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <script>
+        function showsidbar() {
+            const sidbar = document.querySelector('.sidbar')
+            sidbar.style.display = 'flex'
+        }
+        function hidesidbar() {
+            const sidbar = document.querySelector('.sidbar')
+            sidbar.style.display = 'none'
+        }
+    </script>
+
+<!--     <div class="header">
         <div class="main">
             <div class="logo">
                 <a href="index.html"><img src="photos/SALOMIL-logo (1).png" alt=""></a>
@@ -45,7 +86,7 @@
         </div>
 
 
-    </div>
+    </div> -->
     <!-- end header -->
     <!-- start landing -->
     <div class="landing">
