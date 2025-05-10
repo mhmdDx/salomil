@@ -532,7 +532,7 @@ list-style:none;
     .kitchens .main .kite .text {
 
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .kitchens .main .kite .text p {
@@ -543,6 +543,7 @@ list-style:none;
 
     .kitchens h3 {
         padding-left: 20px;
+        margin-bottom:0px;
     }
 
 }
@@ -598,7 +599,7 @@ list-style:none;
     .bathrooms .main .bath .text {
 
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 0px;
 
     }
 
@@ -610,6 +611,7 @@ list-style:none;
 
     .bathrooms h3 {
         padding-left: 20px;
+        margin-bottom:0px;
     }
 }
 
@@ -691,7 +693,7 @@ list-style:none;
     .offices .main .offi .text {
       
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .offices .main .offi .text p {
@@ -702,6 +704,7 @@ list-style:none;
 
     .offices h3 {
         padding-left: 20px;
+        margin-bottom:0px;
     }
 }
 
