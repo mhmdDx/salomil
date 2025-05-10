@@ -176,8 +176,9 @@ body {
         background-color: #fff;
         gap: 15px;
         text-align: left;
-list-style:none;
-        transition:ease 0.5s;
+        list-style:none;
+        transition-duration: 0.5s;
+
 
 
     }
