@@ -151,8 +151,10 @@ body {
 display:none;
 }
 @media (max-width: 768px) {
-    .header i{
+    .nav i{
 display:block;
+        margin-left:15px;
+        
 }
     .hidemob {
         display: none;
