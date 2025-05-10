@@ -146,7 +146,8 @@ body {
 
 
     }
-.header i{
+
+.nav i{
 display:none;
 }
 @media (max-width: 768px) {
