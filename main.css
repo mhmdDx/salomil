@@ -165,10 +165,17 @@ body {
 
 
     }
+.header i{
+display:none;
+}
 @media (max-width: 768px) {
+   .header i{
+display:block;
+}
     .hidemob {
         display: none;
     }
+   
 
     .sidbar {
         position: fixed;
