@@ -223,7 +223,7 @@ display:block;
     .main-header .img {
         height: fit-content;
     }
-}
+} */
 
 .nav ul li a::after {
     content: "";
@@ -239,7 +239,7 @@ display:block;
     transform: scale(1);
     transition: transform 0.5s ease-in-out;
 }
- */
+
 
 /* end header */
 
