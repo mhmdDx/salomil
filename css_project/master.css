@@ -9,7 +9,7 @@ body {
     font-family: "Cairo", sans-serif;
     /* font-family: BauerBodoniBTW01-Roman,Georgia,serif; */
     background-color: #eee;
-     overflow-x: hidden !important;
+    overflow-x: hidden !important;
 
 
 }
@@ -129,33 +129,35 @@ body {
 
 }
 
-    .sidbar {
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-        width: 250px;
-        z-index: 9999;
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        background-color: #fff;
-        gap: 15px;
-        text-align: left;
+.sidbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 9999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #fff;
+    gap: 15px;
+    text-align: left;
 
+
+}
+
+.nav i {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav i {
+        display: block;
+        margin-left: 15px;
 
     }
 
-.nav i{
-display:none;
-}
-@media (max-width: 768px) {
-    .nav i{
-display:block;
-        margin-left:15px;
-        
-}
     .hidemob {
         display: none;
     }
@@ -258,7 +260,7 @@ display:block;
     .landing .main {
         background-position: center;
         width: 100%;
-        height:70vh;
+        height: 70vh;
         background-size: cover;
     }
 
@@ -280,7 +282,7 @@ display:block;
 .about h2 {
     font-size: 40px;
     font-weight: 900;
-    color: ;
+
     direction: rtl;
     text-align: center;
     margin-bottom: 50px;
@@ -296,7 +298,7 @@ display:block;
 }
 
 .del .main h3 {
-    ;
+
     font-weight: 700;
     color: #000000;
 
@@ -320,28 +322,27 @@ display:block;
         align-items: center;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left:15px;
+        margin-left: 15px;
 
     }
 
     .del .main img {
         width: 350px;
 
-        margin: 15px ;
+        margin: 15px;
 
     }
 
     .del .main h3 {
 
-        margin: 15px ;
-        text-align:center;
+        padding: 20px;
+        padding-bottom: 0;
 
     }
 
     .del .main p {
         font-size: 15px;
         padding: 20px;
-     text-align:center;
     }
 
 }
@@ -464,7 +465,7 @@ display:block;
     padding: 30px;
     padding-top: 15px;
     direction: rtl;
-    color:#777;
+    color: #777;
 }
 
 .img-two img {
@@ -538,6 +539,10 @@ display:block;
         padding-top: 0px;
     }
 
+    .kitchens h3 {
+        padding-left: 20px;
+    }
+
 }
 
 
@@ -589,7 +594,7 @@ display:block;
     }
 
     .bathrooms .main .bath .text {
-        text-align: center;
+
         margin-left: 0px;
         margin-top: 20px;
 
@@ -601,6 +606,9 @@ display:block;
         padding-top: 0px;
     }
 
+    .bathrooms h3 {
+        padding-left: 20px;
+    }
 }
 
 
@@ -611,9 +619,7 @@ display:block;
 
 }
 
-.bathrooms .main .text {
-    /* margin-right: 50px; */
-}
+
 
 .bathrooms .main p {
     font-size: 20px;
@@ -642,7 +648,7 @@ display:block;
     }
 
     .bathrooms .main .bath .text {
-        text-align: center;
+        text-align: ;
         /* margin-left: 0px;
         margin-top: 20px; */
 
@@ -690,6 +696,10 @@ display:block;
         font-size: 15px;
         padding: 20px;
         padding-top: 0px;
+    }
+
+    .offices h3 {
+        padding-left: 20px;
     }
 }
 
@@ -747,7 +757,7 @@ display:block;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 15px;
-    margin-top: ;
+
 
 
 }
