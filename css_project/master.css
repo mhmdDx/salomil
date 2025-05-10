@@ -520,7 +520,7 @@ list-style:none;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .kitchens .main .kite img {
@@ -590,7 +590,7 @@ list-style:none;
         flex-direction: column-reverse;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .bathrooms .main .bath img {
@@ -650,7 +650,7 @@ list-style:none;
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .offices .main .offi img {
