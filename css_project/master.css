@@ -554,7 +554,7 @@ body {
 
 .kitchens h3 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 
 }
 
@@ -618,7 +618,7 @@ body {
 }
 .bathrooms h3 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
 }
 
@@ -681,7 +681,7 @@ body {
 
 .offices h3 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 
 }
 
