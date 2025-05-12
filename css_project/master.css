@@ -539,12 +539,14 @@ body {
 
     .kitchens .main .kite .text p {
         font-size: 15px;
-         padding-left:25px;
+       padding-left: 45px;
+        padding-right: 25px;
         padding-top: 0px;
     }
 
     .kitchens h3 {
-        padding-left: 25px;
+        padding-left: 45px;
+        padding-right: 25px;
         margin-bottom:0px;
     }
 
@@ -606,12 +608,14 @@ body {
 
     }
     .bathrooms .main .bath .text h3{
-    padding-left:25px;
+   padding-left: 45px;
+        padding-right: 25px;
     }
 
     .bathrooms .main .bath .text p {
         font-size: 15px;
-        padding-left:25px;
+       padding-left: 45px;
+        padding-right: 25px;
         padding-top: 0px;
     }
 
@@ -669,12 +673,14 @@ body {
 
     .offices .main .offi .text p {
         font-size: 15px;
-         padding-left:25px;
+        padding-left: 45px;
+        padding-right: 25px;
         padding-top: 0px;
     }
 
     .offices h3 {
-        padding-left: 25px;
+    padding-left: 45px;
+        padding-right: 25px;
         margin-bottom:0px;
     }
 }
