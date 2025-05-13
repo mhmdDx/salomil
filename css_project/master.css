@@ -914,3 +914,34 @@ footer a {
 .icon .ul i:hover li {
     background-color: red;
 }
+.map h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+
+}
+
+.map {
+    background-color: #fff;
+
+}
+
+.map img {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .map .main {
+        width: 100%;
+    }
+
+    .map img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .map h2 {
+        font-size: 20px;
+    }
+}
