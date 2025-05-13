@@ -940,7 +940,7 @@ footer a {
         width: 130%;
         margin-bottom: 30px;
          overflow-x: hidden !important;
-         transform: scale(1.5);
+         transform: scale(2);
     }
 
     .map h2 {
