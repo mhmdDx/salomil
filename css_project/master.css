@@ -939,6 +939,7 @@ footer a {
     .map img {
         width: 110%;
         margin-bottom: 30px;
+         overflow-x: hidden !important;
     }
 
     .map h2 {
