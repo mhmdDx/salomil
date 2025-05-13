@@ -940,7 +940,10 @@ footer a {
         width: 130%;
         margin-bottom: 30px;
          overflow-x: hidden !important;
-         transform: scale(2);
+         transform: scale(1.5);
+    }
+    .map img:hover{
+    transform: scale(1.5);
     }
 
     .map h2 {
