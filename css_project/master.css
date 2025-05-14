@@ -937,7 +937,7 @@ footer a {
     }
 
     .map img {
-        width: 190%;
+        width: 140%;
         margin-bottom: 30px;
          overflow-x: hidden !important;
          transform: scale(1.5);
