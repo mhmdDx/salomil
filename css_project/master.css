@@ -947,3 +947,44 @@ footer a {
         font-size: 20px;
     }
 }
+.vid .main {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    background-color: #fff;
+}
+
+
+.main video {
+    width: 500px;
+    height: 400px;
+    align-self: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.main h2 {
+    font-size: 20px;
+    font-style: italic;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .vid .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main video {
+        width: 90%;
+        height: auto;
+    }
+
+    .main h2 {
+        font-size: 20px;
+        font-style: italic;
+        align-self: center;
+    }
+}
