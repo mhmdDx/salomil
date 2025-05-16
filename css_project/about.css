@@ -234,6 +234,10 @@
 
 
     }
+    .history .main img{
+    margin-left:15px auto
+
+    }
 }
 @media (max-width: 768px) {
     .start .main {
