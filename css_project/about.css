@@ -247,6 +247,7 @@
     }
 
     .mission .main {
+        display:none;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -261,6 +262,7 @@
     }
 
     .vision .main {
+        display:none;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
