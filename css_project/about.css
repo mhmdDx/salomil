@@ -235,7 +235,7 @@
 
     }
     .history .main img{
-    margin-left:15px auto;
+    margin-left:30px auto;
         padding:20px;
 
     }
@@ -256,7 +256,7 @@
 
     .mission .main .text {
 
-        text-align: center;
+        
         margin-top:0;
     }
 
@@ -269,7 +269,7 @@
 
     .vision .main .text {
 
-        text-align: center;
+  
     }
 }
 
