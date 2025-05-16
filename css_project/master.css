@@ -924,6 +924,7 @@ footer a {
 
 .map {
     background-color: #fff;
+     margin-bottom: 30px;
 
 }
 
@@ -952,7 +953,7 @@ footer a {
     justify-content: space-around;
     margin-bottom: 50px;
 
-    background-color: #fff;
+    background-color: #ddd;
 }
 
 
