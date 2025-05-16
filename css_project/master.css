@@ -951,9 +951,10 @@ footer a {
 .vid .main {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
 
-    background-color: #ddd;
+    width:100%;
+
+    background-color: #fff;
 }
 
 
@@ -961,8 +962,8 @@ footer a {
     width: 500px;
     height: 400px;
     align-self: center;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom:50px
+    
 }
 
 .main h2 {
@@ -973,7 +974,7 @@ footer a {
 
 @media (max-width: 768px) {
     .vid .main {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
