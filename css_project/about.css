@@ -235,7 +235,8 @@
 
     }
     .history .main img{
-    margin-left:15px auto
+    margin-left:15px auto;
+        padding:20px;
 
     }
 }
