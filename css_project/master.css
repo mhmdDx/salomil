@@ -369,28 +369,7 @@ body {
     animation-duration: 2s;
 
 }
-@media (max-width: 768px) {
-    .landing .main h1 {
-        font-size: 15px;
-        font-weight: 900;
-    }
-      .landing .main h1 {
-    top: 20%;
-      }
 
-
-@keyframes h1 {
-    0% {
-        left: 30%;   
-        opacity: 0.6;
-        }
-
-    100% {
-        left: 50%;
-        opacity: 1;
-        }
-    }
-}
 
 /* @media (max-width: 768px) {
     .landing .main h1 {
@@ -429,7 +408,28 @@ body {
         opacity: 1;
     }
 }
+@media (max-width: 768px) {
+    .landing .main h1 {
+        font-size: 15px;
+        font-weight: 900;
+    }
+      .landing .main h1 {
+    top: 20%;
+      }
 
+
+@keyframes h1 {
+    0% {
+        left: 30%;   
+        opacity: 0.6;
+        }
+
+    100% {
+        left: 50%;
+        opacity: 1;
+        }
+    }
+}
 
 /* end landing */
 /* start features */
