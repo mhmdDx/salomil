@@ -5,13 +5,15 @@
     height: 80vh;
 }
 .land h3{
-    text-align:right;
-    color:#fff;
-    display:flex;
-        justify-content: center;
-    align-items:center;
-    font-weight:300;
-    font-size:15px;
+      color: #fff;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 18;
+}
 
 }
 @media (max-width: 768px){
