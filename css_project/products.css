@@ -67,6 +67,7 @@
 @media (max-width: 768px) {
     .content .main {
         width: 350px;
+            top:140px;
     }
 
     .content .main h1 {
