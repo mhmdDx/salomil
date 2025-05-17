@@ -513,6 +513,13 @@ body {
     direction: rtl;
     color: #777;
 }
+@media (max-width: 768px){
+
+.content .main{
+transition-delay: 1.5s;
+}
+
+}
 
 .img-two img {
     width: 100%;
