@@ -1,6 +1,5 @@
 .landing {
-        background-image: url(../photos/commercial-product-header-Picsart-AiImageEnhancer.webp
-);
+        background-image: url(../photos/commercial-product-header-Picsart-AiImageEnhancer.webp);
 
     background-size: cover;
     background-position: center;
@@ -79,6 +78,7 @@
         .landing {
     height: 350px;
     width:100%;
+   margin-top:70px;             
     
 }
 
