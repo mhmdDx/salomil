@@ -923,7 +923,7 @@ footer a {
 }
 
 .map {
-    background-color: #fff;
+    background-color: #eee;
      
 
 }
@@ -952,7 +952,7 @@ footer a {
     display: flex;
     justify-content: space-around;
 
-    width:100%;
+
 
     background-color: #fff;
 }
