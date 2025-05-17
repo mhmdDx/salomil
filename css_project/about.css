@@ -23,6 +23,9 @@
         height:70vh;
         background-size: cover;
     }
+    .land h3{
+    margin-left:12px;
+    }
 }
 
 .start .main {
