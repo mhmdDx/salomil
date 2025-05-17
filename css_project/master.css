@@ -267,9 +267,6 @@ body {
         height: 35vh;
         background-size: cover;
     }
-    .landing .main h1 {
-    position: absolute;
-    top: 20%;
 
 
 }
@@ -386,13 +383,13 @@ body {
 
 @keyframes h1 {
     0% {
-        top: 45%;
+        top: 35%;
         ;
         opacity: 0.6;
     }
 
     100% {
-        top: 35%;
+        top: 20%;
         opacity: 1;
     }
 }
