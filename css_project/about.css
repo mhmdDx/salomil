@@ -4,6 +4,12 @@
     width: 100%;
     height: 80vh;
 }
+.land h3{
+    text-align:right;
+    color:darkred;
+    line-height:3;
+
+}
 @media (max-width: 768px){
     .land .main {
         background-position: center;
