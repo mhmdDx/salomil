@@ -264,7 +264,7 @@ body {
     .landing .main {
         background-position: center;
         width: 100%;
-        height: calc(20vh - 80px);
+        height: 35vh;
         background-size: cover;
     }
     .landing .main h1 {
