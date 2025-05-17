@@ -2,17 +2,17 @@
     background-image: url("../photos/wide1.png");
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 .land h3{
       color: #fff;
     display: flex
 ;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     font-weight: 400;
     font-size: 30px;
-    line-height: 18;
+    line-height: 27;
 }
 
 }
