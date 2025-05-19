@@ -517,6 +517,7 @@ body {
 
 .content .main{
 transition-delay: 1.5s !important;
+font-style: italic;
 }
 
 }
