@@ -361,7 +361,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%)  !important;
     text-align: center;
-    font-family: monospace;
     color: white;
     font-size: 40px;
     font-weight: bold;
