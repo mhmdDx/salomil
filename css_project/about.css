@@ -247,6 +247,7 @@
     .history .main p {
         font-size: 15px;
         padding: 20px;
+        padding-bottom:0;
 
 
     }
