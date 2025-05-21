@@ -99,9 +99,9 @@ body {
 
 .header .main .logo p {
     font-size: 12px;
-  font-family: "Petit Formal Script", cursive;
-  font-weight: 400;
-  font-style: normal;
+            font-style: italic;
+     font-family: "PT Serif", serif;
+ 
 }
 
 .header .main .logo img {
@@ -370,8 +370,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     animation-name: h1;
     animation-duration: 2s;
-        font-style: italic;
-     font-family: "PT Serif", serif;
+
   
 }
 
