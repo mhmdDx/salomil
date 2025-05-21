@@ -99,6 +99,9 @@ body {
 
 .header .main .logo p {
     font-size: 12px;
+     font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .header .main .logo img {
