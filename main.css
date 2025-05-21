@@ -116,6 +116,8 @@ body {
 
 .header .main .logo p {
    font-size: 12px;
+    font-family: "PT Serif", serif;
+    font-style: italic;
 }
 
 .header .main .logo img {
