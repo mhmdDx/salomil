@@ -98,10 +98,11 @@ body {
 }
 
 .header .main .logo p {
-    font-size: 12px;
+    font-size: 13px;
             font-style: italic;
      font-family: "PT Serif", serif;
     font-style: italic;
+    font-weight: 800;
  
 }
 
